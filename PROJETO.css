@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.caixa-lateral {
+    width: 491px;
+    height: 100vh;
+    position: sticky;
+    left: 949px;
+    background-color: rgba(93, 93, 125, 0.16);
+    
+}
+
+.imagem-principal {
+    position: absolute;
+    top: 216px;
+    right: 430px;
+    
+}
+
+header {
+    position: absolute;
+    top:24px;
+    left: 57px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41.5px;
+    color: black;
+    cursor: pointer;
+}
+
+.cabeçalho {
+    margin-right: 41px;
+    color: #5D5D7D;
+}
+
+h2 {
+    position: absolute;
+    top: 381px;
+    left: 136px;
+    width: 368px;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+    color: #5D5D7D;
+}
+
+p {
+    position: absolute;
+    top: 556px;
+    left: 136px;
+    width: 540px;
+    font-size: 28px;
+    font-weight: 48px;
+    color: #5D5D7D;
+    opacity: 0.5;
+    margin: 15px 0 15px;
+}
+
+button {
+    position: absolute;
+    top: 715px;
+    left: 136px;
+    background: #9499EA;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0 4px 4px #808080);
+    width: 269px;
+    height: 62px;
+    font-size: 24px;
+    line-height: 35.57px;
+    color: #ffffff;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .5;
+}
