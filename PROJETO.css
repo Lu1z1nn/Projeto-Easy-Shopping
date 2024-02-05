@@ -8,19 +8,34 @@
     font-family: 'Oswald', sans-serif;
 }
 
+body {
+    display: flex;
+}
+
 .caixa-lateral {
     width: 491px;
-    height: 100vh;
+    height: 500vh;
     position: sticky;
-    left: 949px;
+    left: 1200px;
     background-color: rgba(93, 93, 125, 0.16);
-    
+}
+
+a:nth-child(2) {
+    opacity: .6;
+}
+
+a:hover {
+    opacity: .4;
+}
+
+a:active {
+    opacity: .2;
 }
 
 .imagem-principal {
-    position: absolute;
-    top: 216px;
-    right: 430px;
+    position: relative;
+    top: 161px;
+    right: 128px;
     
 }
 
@@ -35,15 +50,24 @@ header {
     cursor: pointer;
 }
 
+
+
 .cabeçalho {
     margin-right: 41px;
     color: #5D5D7D;
 }
 
+ main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+} 
 h2 {
-    position: absolute;
+    /* position: absolute;
     top: 381px;
-    left: 136px;
+    left: 136px; */
     width: 368px;
     font-weight: 400;
     font-size: 70px;
@@ -52,9 +76,9 @@ h2 {
 }
 
 p {
-    position: absolute;
+    /* position: absolute;
     top: 556px;
-    left: 136px;
+    left: 136px; */
     width: 540px;
     font-size: 28px;
     font-weight: 48px;
@@ -64,9 +88,9 @@ p {
 }
 
 button {
-    position: absolute;
-    top: 715px;
-    left: 136px;
+    /* position: absolute;
+    top: 700px;
+    left: 100px; */
     background: #9499EA;
     border-radius: 30px;
     border: none;
@@ -77,6 +101,8 @@ button {
     font-size: 24px;
     line-height: 35.57px;
     color: #ffffff;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 button:hover {
@@ -85,4 +111,53 @@ button:hover {
 
 button:active {
     opacity: .5;
+}
+
+@media screen and (max-width: 700px) {
+    h2 {
+        width: 268px;
+        height: 104px;
+        position: static;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 52px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    p {
+        width: 296px;
+        opacity: 0.6px;
+        position: static;
+        font-family: Oswald;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin: 0;
+    }
+
+    button {
+        
+        position: static;
+    }
+    .caixa-lateral {
+        position: static;
+    }
+    header {
+        display: none;
+    }
+
+    .imagem-principal {
+        position: relative;
+        top: 46px;
+        left: 51px;
+        right: 53px;
+    }
+
+    img {
+        width: 271px;
+        height: 322.95px;
+    }
 }
