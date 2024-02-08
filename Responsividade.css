@@ -1,0 +1,48 @@
+@media screen and (max-width: 1000px) {
+    h2 {
+        width: 268px;
+        height: 104px;
+        position: static;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 52px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    p {
+        width: 296px;
+        opacity: 0.6px;
+        position: static;
+        font-family: Oswald;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin: 0;
+    }
+
+    button {
+        
+        position: static;
+    }
+    .caixa-lateral {
+        position: static;
+    }
+    header {
+        display: none;
+    }
+
+    .imagem-principal {
+        position: relative;
+        top: 46px;
+        left: 51px;
+        right: 53px;
+    }
+
+    img {
+        width: 271px;
+        height: 322.95px;
+    }
+}
