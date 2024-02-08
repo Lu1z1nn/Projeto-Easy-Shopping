@@ -62,7 +62,9 @@ header {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    
+    position: relative;
+    top: 300px;
+    left: 30px;
 } 
 h2 {
     /* position: absolute;
